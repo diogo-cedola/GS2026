@@ -1,0 +1,29 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Outputs gerados (não versionar dados coletados)
+output/spaceintel_report.xlsx
+output/spaceintel_analysis.md
+
+# Cache local (dados temporários)
+cache/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.swp
+
+# Credenciais
+.env
+*.key

@@ -1,0 +1,119 @@
+FONTE: IEA - International Energy Agency / GBPN
+CATEGORIA: relatorio_tecnico
+SUBCATEGORIA: energia_agua
+ANO: 2023
+VIGENCIA: vigente
+TITULO: Net Zero Energy Buildings - Definições, Estratégias e Roadmap para o Brasil
+
+=========================================================
+NET ZERO BUILDINGS — FRAMEWORK TÉCNICO COMPLETO (IEA/GBPN)
+=========================================================
+
+1. DEFINIÇÕES E NOMENCLATURA
+O conceito de "Net Zero" para edificações ainda não tem padronização única no mundo, mas o IEA (International Energy Agency) e o GBPN (Global Buildings Performance Network) adotam as seguintes definições:
+
+NZEB — Net Zero Energy Building (Edifício de Balanço Energético Nulo):
+Edifício de altíssima eficiência energética que, em base anual, gera no mínimo tanta energia renovável quanto consome. O balanço pode ser medido em energia primária, energia final ou CO₂.
+
+Terminologia relacionada:
+- ZEB (Zero Energy Building): sinônimo de NZEB
+- NZEB — Source Energy: balanço em energia primária (considera perdas de geração e transmissão)
+- NZEB — Site Energy: balanço em energia final (medido na fatura de energia)
+- ZCB (Zero Carbon Building) ou Net Zero Carbon: emissões operacionais de carbono = zero
+- Near Zero Energy: redução ≥ 90% do consumo de referência
+- Net Zero Water Building: balanço hídrico nulo — geração/captação ≥ consumo anual
+
+Classificação do IEA (EBC Annex 52):
+- Tipo 1: Importação zero — o edifício nunca importa energia da rede em nenhum momento
+- Tipo 2: Net zero — balanço anual igual a zero (mais comum e factível)
+- Tipo 3: Plus Energy Building — gera mais do que consome (exportador líquido)
+
+2. HIERARQUIA DE ESTRATÉGIAS PARA NET ZERO ENERGY
+A abordagem correta é em pirâmide: eficiência antes de geração.
+
+NÍVEL 1 — REDUÇÃO DE DEMANDA (passive design):
+Estratégias passivas que eliminam ou reduzem a necessidade de energia ativa:
+- Orientação solar correta: fachadas principais N-S no Brasil (minimizar exposição L-O)
+- Proteção solar: beirados, brises, árvores de folha caduca (sombra no verão, sol no inverno)
+- Envelope de alto desempenho: U_parede < 0,5 W/m²K; U_cobertura < 0,3 W/m²K
+- Vidros de alto desempenho: U < 1,5 W/m²K; SHGC < 0,25 (climas quentes)
+- Massa térmica: CT ≥ 200 kJ/m²K para suavizar variações de temperatura
+- Ventilação natural cruzada: aberturas adequadas para aproveitamento de ventos dominantes
+- Telhado verde: redução de ganho de calor pela cobertura em até 40%
+- Iluminação natural: FLD ≥ 2,0% em ≥75% das áreas de trabalho (reduz iluminação elétrica)
+
+NÍVEL 2 — EFICIÊNCIA DE SISTEMAS ATIVOS:
+- HVAC de alta eficiência: chiller centrífugo magnético (COP ≥ 7,0); VRF Inverter (COP ≥ 5,0)
+- Recuperação de calor: ERV/HRV em DOAS (eficiência ≥ 75%)
+- Iluminação LED com controles: LPD ≤ 4 W/m²; sensores de presença e daylight
+- Elevadores e escadas rolantes regenerativos (recuperam energia na frenagem)
+- BEMS com algoritmos de otimização preditiva (model predictive control — MPC)
+- EUI alvo (Target EUI): escritório NZEB ≤ 50 kWh/m²/ano; residencial ≤ 30 kWh/m²/ano
+
+NÍVEL 3 — GERAÇÃO RENOVÁVEL IN SITU:
+- Sistema fotovoltaico (BIPV ou rack): principal fonte de geração nos NZEBs urbanos
+- Solar térmico: aquecimento de água e refrigeração solar (ciclo de absorção)
+- Geotermia (GCHP — Ground-Coupled Heat Pump): para regiões com recurso adequado
+- Biomassa: caldeiras para aquecimento em climas frios (Sul do Brasil)
+- Micro-hidrelétricas: apenas em contextos rurais específicos
+
+3. ESTRATÉGIAS PARA NET ZERO WATER
+Balanço hídrico nulo: captação anual de água no local ≥ consumo total anual.
+
+Hierarquia de ações:
+1. Redução de demanda: fixtures de ultra-baixo consumo, paisagismo nativo
+2. Captação pluvial: 100% do telhado conectado a cisternas dimensionadas para demanda anual
+3. Reuso de águas cinzas: 100% das águas cinzas tratadas reaproveitadas
+4. Condensado de HVAC: coletado para usos não potáveis (5–10% da demanda)
+5. Tratamento e reuso de águas negras (greywater + blackwater): NBR 13969, nível terciário
+
+Cálculo de viabilidade pluvial (exemplo — São Paulo):
+Precipitação média anual: 1.450 mm = 1,45 m³/m² de telhado
+Coeficiente de runoff (telha cerâmica): C = 0,85
+Volume captável por m² de telhado/ano = 1,45 × 0,85 = 1,23 m³/m²/ano
+Para atender demanda não potável de 50 L/pessoa/dia em 100 pessoas = 1.825 m³/ano
+Área de telhado necessária = 1.825 / 1,23 ≈ 1.484 m²
+
+4. MÉTRICAS E INDICADORES CHAVE
+EUI — Energy Use Intensity (kWh/m²/ano):
+- Referência ASHRAE 50% better: escritório ≤ 55 kWh/m²/ano
+- Net Zero Energy: EUI ≤ geração FV por m² de telhado disponível
+- Benchmarks NZEB internacionais: 30–60 kWh/m²/ano (tipologia e clima)
+
+pEUI — Primary Energy Use Intensity:
+Considera fatores de conversão de energia primária:
+- Eletricidade (Brasil, mix renovável 2023): fator ≈ 1,8–2,5 kWhp/kWhf
+- Gás natural: fator ≈ 1,05 kWhp/kWhf
+- GLP: fator ≈ 1,05 kWhp/kWhf
+
+WUI — Water Use Intensity (L/pessoa/dia):
+- NZWB referência: WUI ≤ volume captável per capita no local
+
+5. CASOS DE ESTUDO E EXEMPLOS
+NZEB residencial — Casa Zero, São Paulo (GBC Brasil, 2019):
+- Sistema FV: 5,5 kWp (26 módulos de 210 Wp)
+- EUI: 21 kWh/m²/ano (geração supera consumo em 15%)
+- Estratégias: paredes de adobe, ventilação cruzada, piscina natural, captação pluvial 100%
+- Investimento adicional em sustentabilidade: +18% sobre custo convencional
+- Payback em energia: 6 anos
+
+NZEB comercial — Escritório Mercado Livre, Osasco-SP:
+- Sistema FV: 1,5 MWp na cobertura
+- HVAC VRF de alta eficiência + recuperação de calor
+- EUI: 47 kWh/m²/ano (85% abaixo da referência)
+- Certificação: LEED Platinum + PROCEL A
+
+6. ROADMAP NET ZERO BUILDINGS NO BRASIL (2030–2050)
+Alinhado com o Acordo de Paris e PNEC (Plano Nacional de Eficiência Energética):
+- 2025: todas as edificações públicas federais novas ≥ etiqueta PROCEL A + plano FV
+- 2030: regulamentação para NZEB em edificações >5.000 m² (grandes empreendimentos)
+- 2035: código de obras municipais com requisito mínimo de pré-certificação verde
+- 2040: mercado de construção nova com 50% de edificações NZEB ou near-zero
+- 2050: estoque existente com reforma profunda (deep retrofit) → neutralidade de carbono
+
+REFERÊNCIAS:
+- IEA: Net Zero by 2050 (2021); Tracking Buildings (2023)
+- GBPN: Global Status Report for Buildings and Construction 2023
+- GBC Brasil: Estudo sobre Net Zero no Brasil (2022)
+- ASHRAE Vision 2100 — Net Zero Energy Buildings
+- IPCC AR6 WG3: Mitigation of Climate Change — Buildings Chapter (2022)

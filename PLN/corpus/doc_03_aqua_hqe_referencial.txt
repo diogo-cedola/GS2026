@@ -1,0 +1,139 @@
+FONTE: Fundação Vanzolini / Cerway
+CATEGORIA: norma_certificacao
+SUBCATEGORIA: energia_agua
+ANO: 2022
+VIGENCIA: vigente
+TITULO: AQUA-HQE - Referencial Técnico Brasileiro para Edifícios Sustentáveis
+
+=========================================================
+AQUA-HQE — REFERENCIAL TÉCNICO: REQUISITOS TÉCNICOS COMPLETOS
+=========================================================
+
+1. HISTÓRICO E CONTEXTO
+O AQUA-HQE (Alta Qualidade Ambiental — Haute Qualité Environnementale) é a adaptação brasileira do sistema de certificação HQE francês, desenvolvida pela Fundação Vanzolini em parceria com a Cerway. Aplica-se a edificações do setor terciário (escritórios, hotelaria, comércio, educação, saúde) e residencial (HQE Residencial).
+
+O sistema é estruturado em dois eixos:
+- Sistema de Gestão do Empreendimento (SGE): processo de qualidade ambiental
+- Qualidade Ambiental do Edifício (QAE): 14 preocupações técnicas
+
+2. AS 14 PREOCUPAÇÕES (QB) — QUALIDADE AMBIENTAL DO EDIFÍCIO
+O desempenho é avaliado em três perfis:
+- BASE: conformidade com a regulamentação vigente (mínimo)
+- BOAS PRÁTICAS (BP): desempenho acima do regulatório
+- MELHORES PRÁTICAS (MP): desempenho de excelência (25% melhor do mercado)
+
+FAMÍLIA 1 — ECO-CONSTRUÇÃO (QB1 a QB4)
+QB1 — Relação do edifício com seu entorno
+  BASE: Atender código de obras e posturas municipais
+  BP: Implantação com análise de ventos, ruídos e sombreamento vizinho
+  MP: Estudo bioclimático completo; orientação ótima para latitude
+
+QB2 — Escolha integrada de produtos, sistemas e processos construtivos
+  BASE: Uso de materiais com declaração ambiental (DAP/EPD)
+  BP: ≥30% dos materiais principais com Declaração Ambiental de Produto
+  MP: ≥50% dos materiais principais com DAP; preferência por madeira certificada FSC
+
+QB3 — Canteiro de obras com baixo impacto ambiental
+  BASE: Plano de gerenciamento de resíduos de construção civil (PGRCC)
+  BP: ≥90% dos resíduos segregados e destinados corretamente
+  MP: ≥95% dos resíduos desviados de aterro; canteiro com medição de consumo de água e energia
+
+QB4 — Gestão da energia durante a construção
+  BASE: Medição de consumo de combustíveis e energia no canteiro
+  BP: Redução de 20% no consumo energético do canteiro vs. referência de mercado
+  MP: Canteiro carbono neutro ou com geração de energia renovável in situ
+
+FAMÍLIA 2 — ECO-GESTÃO (QB5 a QB8)
+QB5 — Gestão de energia em operação
+  BASE: Atender RTQ-C (PROCEL/INMETRO) — etiqueta mínima C
+  BP: Desempenho 20% melhor que RTQ-C; EUI ≤ 80% do valor regulatório
+  MP: Desempenho 40% melhor que RTQ-C; meta EUI específica por tipologia:
+    - Escritórios: ≤ 80 kWh/m²/ano
+    - Hotéis: ≤ 120 kWh/m²/ano
+    - Shoppings: ≤ 150 kWh/m²/ano
+
+  Estratégias para Melhores Práticas em energia:
+  - Iluminação: sistema LED + DALI com controles por zona (LPD ≤ 7 W/m²)
+  - HVAC: VRF com inverter ou chiller centrifugal de alta eficiência (COP ≥ 5,5)
+  - Envelope: fachadas com proteção solar externa (brise-soleil) e envidraçamento de alto desempenho
+  - Monitoramento: BEMS com submedição por sistema
+  - Geração: sistema fotovoltaico para cobrir iluminação de áreas comuns
+
+QB6 — Gestão de água em operação
+  BASE: Atender NBR 5626 (instalações prediais de água fria)
+  BP: Redução de 20% no consumo de água potável vs. baseline calculado
+  MP: Redução de 40% no consumo de água potável; ≥50% do uso não potável atendido por fontes alternativas
+
+  Fontes alternativas de água — hierarquia preferencial:
+  1. Coleta e tratamento de água pluvial
+  2. Reuso de águas cinzas (lavatorios, chuveiros)
+  3. Água de condensado de sistemas de ar-condicionado
+  4. Água de reuso de piscinas (para irrigação)
+
+  Usos não potáveis permitidos com água alternativa:
+  - Descarga de vasos sanitários e mictórios (maior potencial de economia: 30–40% do consumo)
+  - Irrigação de áreas verdes
+  - Lavagem de pisos e áreas externas
+  - Rejeito de osmose reversa (para limpeza pesada)
+  - Torres de resfriamento (com tratamento adequado)
+
+QB7 — Manutenção, desempenho e gestão ambiental
+  BASE: Manual do proprietário com especificações de manutenção
+  BP: Plano de manutenção preventiva com cronograma de 5 anos
+  MP: Sistema de monitoramento de desempenho pós-ocupação (12 meses); relatório anual
+
+QB8 — Conforto hidrométrico e gestão de resíduos de uso e operação
+  BASE: Plano de gerenciamento de resíduos de operação (coleta seletiva)
+  BP: ≥50% dos resíduos de operação com destinação correta
+  MP: ≥80% dos resíduos com destinação correta; compostagem de resíduos orgânicos
+
+FAMÍLIA 3 — CONFORTO (QB9 a QB12)
+QB9 — Conforto higrotérmico
+  BASE: Temperatura interna ≤ 26°C em 90% das horas de ocupação (verão), ≥ 18°C (inverno)
+  BP: Temperatura ≤ 25°C com estratégias passivas; umidade relativa 40–60%
+  MP: Conforto adaptativo segundo ASHRAE 55 ou EN 15251; ventilação natural verificada
+
+QB10 — Conforto acústico
+  BASE: Níveis de ruído conforme NBR 10151 e NBR 10152
+  BP: NRC > -25 dB para escritórios; tempo de reverberação conforme tipologia
+  MP: Certificação acústica independente; auditórios e salas de reunião com RT < 0,5 s
+
+QB11 — Conforto visual
+  BASE: Iluminância conforme NBR 5413 (por tipologia de ambiente)
+  BP: Daylight Factor ≥ 2% em ≥75% das áreas de trabalho
+  MP: UDI (Useful Daylight Illuminance) 100–2000 lux por ≥50% das horas de ocupação
+
+QB12 — Conforto olfativo
+  BASE: Taxas de ventilação conforme ASHRAE 62.1 ou NBR 16401
+  BP: CO₂ interior < 700 ppm acima do exterior; TVOC < 500 μg/m³
+  MP: CO₂ < 500 ppm acima do exterior; PM2.5 < 15 μg/m³; certificação WELL Air
+
+FAMÍLIA 4 — SAÚDE (QB13 e QB14)
+QB13 — Qualidade sanitária dos espaços
+  BASE: Conformidade com código sanitário municipal/estadual
+  BP: Condições de iluminação e ventilação natural em todos os espaços habitáveis
+  MP: Análise de ciclo de vida (LCA) dos materiais; ausência de COV (Compostos Orgânicos Voláteis)
+
+QB14 — Qualidade sanitária do ar e da água
+  BASE: Qualidade da água conforme Portaria MS 888/2021 (potabilidade)
+  BP: Filtração ≥ 3 estágios nos pontos de consumo; análise semestral da qualidade
+  MP: Filtração por osmose reversa nos pontos de consumo; qualidade da água da chuva certificada
+
+3. PROCESSO DE CERTIFICAÇÃO
+Fases:
+1. Programa (fase de concepção): definição do perfil de desempenho pretendido
+2. Concepção (projeto): verificação pelo auditor credenciado Vanzolini/Cerway
+3. Realização (obra): inspeções de canteiro
+4. Operação (opcional, após 12 meses): medição de desempenho real
+
+Perfis de certificação possíveis:
+- "Bom": mínimo BASE em todas as 14 preocupações
+- "Muito Bom": BP em ≥4 QB; BASE nas demais
+- "Excelente": BP em ≥7 QB; MP em ≥3 QB; BASE nas demais
+- "Excepcional": MP em ≥7 QB; BP nas demais
+
+REFERÊNCIAS:
+- Fundação Vanzolini: www.vanzolini.org.br/aqua
+- Cerway: HQE Framework 2016
+- ABNT NBR 15575:2021 — Desempenho de Edificações Habitacionais
+- Portaria MS 888/2021 — Padrões de Potabilidade da Água

@@ -1,0 +1,99 @@
+FONTE: ASHRAE / ABNT / ISO
+CATEGORIA: manual_tecnologia
+SUBCATEGORIA: energia
+ANO: 2023
+VIGENCIA: vigente
+TITULO: BEMS - Building Energy Management Systems: Arquitetura, Protocolos e Funcionalidades
+
+=========================================================
+BEMS — BUILDING ENERGY MANAGEMENT SYSTEMS: GUIA TÉCNICO
+=========================================================
+
+1. DEFINIÇÃO E ARQUITETURA
+Um BEMS (Building Energy Management System), também chamado de BMS (Building Management System) ou BAS (Building Automation System), é um sistema computadorizado de monitoramento e controle de sistemas prediais com foco em eficiência energética.
+
+Arquitetura em três níveis:
+- Nível 1 — Campo (Field Level): sensores, atuadores, controladores locais (DDC)
+- Nível 2 — Automação (Automation Level): controladores de área, PLCs, controladores de zona
+- Nível 3 — Gestão (Management Level): servidor BEMS, interface gráfica (GUI/HMI), banco de dados, dashboards
+
+2. PROTOCOLOS DE COMUNICAÇÃO
+Protocolos abertos (interoperáveis — recomendados para edifícios verdes):
+- BACnet (ANSI/ASHRAE 135): padrão internacional para automação predial; suporta MS/TP (RS-485), IP e BACnet/SC (sobre TCP/IP); adotado pela maioria dos sistemas HVAC
+- Modbus RTU/TCP: protocolo industrial simples e robusto; amplamente usado em medidores de energia, inversores de frequência e sistemas solares
+- KNX (EN 50090): padrão europeu para automação residencial e comercial; instalação em barramento; usado em iluminação e persianas
+- LonWorks: protocolo peer-to-peer; usado em controle de iluminação e elevadores
+- MQTT (Message Queuing Telemetry Transport): protocolo IoT leve; ideal para integração com plataformas em nuvem
+
+Protocolo proprietário (limitações de interoperabilidade):
+- Vendor-lock: sistemas de fabricantes como Siemens (Desigo), Honeywell (EBI), Johnson Controls (Metasys) podem usar protocolos proprietários adicionais
+
+3. SISTEMAS CONTROLADOS PELO BEMS
+HVAC (Heating, Ventilation and Air Conditioning) — maior potencial de economia (40–60% do consumo):
+  - Controle de setpoint de temperatura por zona e horário
+  - Otimização do start/stop de chillers e bombas (sequenciamento)
+  - Controle de VAV (Volume de Ar Variável) e dampers de zona
+  - Economizador de ar externo (free cooling) quando T_ext < T_retorno
+  - Reset de setpoint de água gelada conforme demanda
+  - Controle de torres de resfriamento (fan speed + setpoint de água)
+
+ILUMINAÇÃO (20–30% do consumo):
+  - Sensores de presença/ocupação por zona
+  - Sensores de luminosidade (daylight harvesting): dimming conforme nível de luz natural
+  - Controle DALI (Digital Addressable Lighting Interface): dimming 0–100% por luminária
+  - Cenas de iluminação programáveis (apresentação, leitura, reunião)
+  - Integração com persiana motorizada para controle de ofuscamento
+
+ENERGIA ELÉTRICA:
+  - Medidores de energia inteligentes (smart meters) por circuito/andar/setor
+  - Gestão de demanda (demand response): corte de cargas não essenciais no horário de ponta
+  - Monitoramento de fator de potência e harmônicas
+  - Integração com sistema fotovoltaico: monitoramento de geração e autoconsumo
+  - Relatórios de EUI (Energy Use Intensity) e KPIs por período
+
+HIDRÁULICO:
+  - Medidores de água inteligentes por setor (submetering)
+  - Detecção de vazamentos (consumo anômalo fora do horário de operação)
+  - Controle de bombas com inversores de frequência (VFD)
+  - Alertas de qualidade da água (pH, cloro, turbidez) nos sistemas de reuso
+
+4. ISO 50001:2018 — SISTEMA DE GESTÃO DE ENERGIA (SGE)
+A ISO 50001 define requisitos para o Sistema de Gestão de Energia (SGE), com ciclo PDCA (Plan-Do-Check-Act):
+
+Plan: levantamento de IDEn (Indicadores de Desempenho Energético); linha de base energética
+Do: implementação de controles BEMS; projetos de eficiência
+Check: monitoramento de desempenho vs. linha de base; M&V (ISO 50015)
+Act: revisão pela direção; ajuste de metas; melhoria contínua
+
+O BEMS é a ferramenta de implementação do SGE: fornece os dados em tempo real necessários para o M&V e relatórios de desempenho.
+
+5. ECONOMIAS TÍPICAS COM BEMS
+Estudos internacionais (ASHRAE, IEA, PNNL) reportam:
+- HVAC: 10–30% de redução no consumo com controles avançados
+- Iluminação: 20–40% com sensores de presença e daylight harvesting
+- Gestão de demanda: 5–15% de redução de pico de demanda (kW)
+- Total global (edifício comercial): 15–35% de economia no consumo de energia
+
+Payback típico de instalação de BEMS:
+- Retrofit de edifício existente: 2–5 anos
+- Edifício novo: 1–3 anos (custo adicional menor; integrado ao projeto)
+
+6. INTEGRAÇÃO COM SISTEMAS RENOVÁVEIS E REUSO DE ÁGUA
+BEMS + Sistema Fotovoltaico:
+  - Monitoramento de geração FV vs. consumo em tempo real
+  - Algoritmo de autoconsumo: priorizar cargas flexíveis (lavanderia, recarga de VE) durante geração FV
+  - Alertas de underperformance (sujidade nos módulos, falha de inversor)
+  - Dashboards de emissões evitadas de CO₂
+
+BEMS + Sistema de Reuso de Água:
+  - Monitoramento de consumo de água potável e cinza por setor
+  - Alertas de nível de reservatório e autonomia restante
+  - Controle automatizado de válvulas entre rede potável e rede cinza (backup)
+  - Relatórios de qualidade da água tratada (integração com analisadores inline)
+
+REFERÊNCIAS:
+- ASHRAE Guideline 36-2021: High-Performance Sequences of Operation for HVAC Systems
+- ISO 50001:2018: Energy management systems
+- ABNT NBR ISO 50001:2023
+- BACnet Standard ANSI/ASHRAE 135-2020
+- PNNL: Advanced Energy Retrofit Guides (2022)

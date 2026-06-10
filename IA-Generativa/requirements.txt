@@ -1,0 +1,13 @@
+# Space Intelligence Assistant — Dependências
+# Global Solution 2026 - FIAP
+
+streamlit==1.40.2
+openai==1.55.0
+langchain==0.3.9
+langchain-openai==0.2.10
+langchain-community==0.3.9
+faiss-cpu==1.9.0
+pypdf==5.1.0
+docx2txt==0.8
+tiktoken==0.8.0
+python-dotenv==1.0.1

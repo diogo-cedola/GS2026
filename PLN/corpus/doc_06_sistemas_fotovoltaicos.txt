@@ -1,0 +1,151 @@
+FONTE: ABSOLAR / ANEEL / IEA-PVPS
+CATEGORIA: relatorio_tecnico
+SUBCATEGORIA: energia
+ANO: 2024
+VIGENCIA: vigente
+TITULO: Sistemas Fotovoltaicos para Edificações - Manual de Dimensionamento e Regulamentação
+
+=========================================================
+SISTEMAS FOTOVOLTAICOS PARA EDIFICAÇÕES — MANUAL TÉCNICO COMPLETO
+=========================================================
+
+1. FUNDAMENTOS DO EFEITO FOTOVOLTAICO
+O efeito fotovoltaico converte energia solar (fótons) em energia elétrica (corrente contínua) por meio de células semicondutoras de silício. A eficiência de conversão (η) representa a fração da irradiação solar incidente efetivamente convertida em eletricidade.
+
+Tipos de células e módulos fotovoltaicos disponíveis no mercado:
+
+1) Silício monocristalino (mono-Si):
+   - Eficiência: 18–24% (mono-PERC: 20–22%; TOPCon: 21–24%)
+   - Desempenho em alta temperatura: melhor que policristalino
+   - Coeficiente de temperatura de potência (γ): -0,35 a -0,40%/°C
+   - Durabilidade: ≥25 anos com garantia linear de potência
+
+2) Silício policristalino (poly-Si):
+   - Eficiência: 15–18%
+   - Custo menor; desempenho caindo; mercado em declínio
+   - γ: -0,40 a -0,45%/°C
+
+3) Heterojunção (HJT):
+   - Eficiência: 22–26% (fronteira tecnológica)
+   - Melhor desempenho em alta temperatura (γ ≈ -0,26%/°C)
+   - Bifacial: aproveitamento de irradiação refletida pelo solo
+
+4) Silício amorfo e thin film (CdTe, CIGS):
+   - Eficiência: 10–15%
+   - Aplicação em BIPV (Building-Integrated PV): fachadas, telhas, vidros
+
+2. DIMENSIONAMENTO DO SISTEMA FOTOVOLTAICO
+Método simplificado para dimensionamento:
+
+Passo 1 — Consumo médio mensal:
+  C_mensal (kWh/mês) = leitura da conta de energia (ou levantamento de cargas)
+  C_diário (kWh/dia) = C_mensal / 30
+
+Passo 2 — Irradiação Solar no Plano do Gerador (ISPG):
+  Dado pelo Atlas Solarimétrico do Brasil (CRESESB) ou SolarGIS
+  Valores médios por região (kWh/m²/dia — inclinação ≈ latitude):
+  - São Paulo (ZB3): 4,5–5,0
+  - Belo Horizonte (ZB3): 5,0–5,5
+  - Brasília (ZB4): 5,5–6,0
+  - Nordeste (ZB6/7): 5,5–6,5
+  - Sul — Porto Alegre (ZB2): 4,0–4,5
+  - Amazônia (ZB8): 4,0–4,5
+
+Passo 3 — Potência de pico do gerador (Wp):
+  Ppico (kWp) = C_diário (kWh/dia) / (ISPG × η_total)
+  
+  onde η_total = η_inv × η_cabeamento × η_sujidade × η_temperatura
+  Valores típicos: η_inv ≈ 0,98; η_cabeamento ≈ 0,98; η_sujidade ≈ 0,97; η_temp ≈ 0,90
+  η_total típico: 0,80–0,85 (Performance Ratio — PR)
+
+Passo 4 — Área necessária:
+  Área (m²) = Ppico (kWp) / (η_módulo × 1 kWp/m²)
+  Exemplo: módulo 21% → 1 kWp ocupa 4,76 m²
+
+Passo 5 — Número de módulos:
+  N_módulos = Ppico (kWp) × 1000 / Pmódulo (Wp)
+
+EXEMPLO COMPLETO:
+Edifício de escritórios em São Paulo:
+- Consumo mensal: 15.000 kWh/mês → C_diário = 500 kWh/dia
+- ISPG (SP, sul, 23°): 4,8 kWh/m²/dia
+- PR = 0,82
+- Ppico = 500 / (4,8 × 0,82) = 127,0 kWp
+- Módulo de 550 Wp → N = (127,0 × 1000) / 550 = 231 módulos
+- Área necessária: 231 × 2,78 m² (dim. típica) = 642 m²
+
+3. TIPOS DE SISTEMAS FOTOVOLTAICOS
+a) Sistema On-Grid (conectado à rede):
+   - Inversor grid-tie; sem baterias na configuração padrão
+   - Excedente injetado na rede e compensado em créditos (Resolução ANEEL 482/2012)
+   - Aplicação: maioria dos projetos residenciais e comerciais
+   - Payback típico: 4–7 anos (residencial); 3–5 anos (comercial/industrial)
+
+b) Sistema Off-Grid (isolado):
+   - Banco de baterias (chumbo-ácido ou íon-lítio); sem conexão à rede
+   - Custo maior; aplicação: zonas rurais, ilhas, telecomunicações
+   - Autonomia: 1–5 dias (dimensionamento de baterias conforme demanda)
+
+c) Sistema Híbrido (on-grid com armazenamento):
+   - Inversor híbrido + banco de baterias + conexão à rede
+   - Permite uso prioritário da geração própria + armazenamento de excedente
+   - Vantagem para tarifas com horário de ponta (TOU — Time of Use)
+   - Custo: 40–80% mais caro que on-grid
+
+4. INVERSORES FOTOVOLTAICOS
+Tipos de inversores:
+a) String inverter (central): 1 inversor por string de módulos; mais simples; menor custo
+b) Microinversor: 1 inversor por módulo; máxima extração individual; alto custo
+c) Otimizador de potência: módulo individual; conversa com string inverter
+d) Inversor com MPPT múltiplo: até 12 rastreadores MPPT; fachadas orientadas para N, L e O
+
+MPPT — Maximum Power Point Tracking:
+Algoritmo que rastreia e maximiza continuamente a potência extraída dos módulos.
+Eficiência do MPPT: ≥99,5% (inversores de alta qualidade)
+
+5. REGULAMENTAÇÃO BRASILEIRA
+Lei 14.300/2022 — Marco Legal da Microgeração e Minigeração Distribuída:
+- Microgeração: potência instalada ≤ 75 kWp (residencial e comercial)
+- Minigeração: 75 kWp < potência ≤ 5 MWp
+- Sistema de compensação de energia (net metering): validade 60 meses dos créditos
+- Prazo de conexão: distribuidora tem 34 dias úteis (microgeração) ou 90 dias (minigeração)
+
+Resolução Normativa ANEEL 687/2015 (atualizada pelo Marco Legal 14.300/2022):
+- Conexão trifásica ou monofásica conforme tensão de conexão
+- Padrão de medição bidirecional obrigatório
+- Laudo do instalador credenciado e aprovação do projeto elétrico
+
+Normas técnicas aplicáveis:
+- ABNT NBR 16149:2013 — Sistemas fotovoltaicos (interfaces de conexão)
+- ABNT NBR 16274:2014 — Sistemas FV: documentação de comissionamento
+- ABNT NBR 16690:2019 — Requisitos de projeto para sistemas FV
+- IEC 61215: Qualificação de módulos FV (cristalinos)
+- IEC 62109: Segurança de inversores
+
+6. ANÁLISE ECONÔMICA SIMPLIFICADA
+VPL (Valor Presente Líquido) e Payback simples:
+
+Investimento típico (2024):
+- Residencial (3–5 kWp): R$ 5.000–8.000/kWp instalado
+- Comercial (20–100 kWp): R$ 3.500–5.000/kWp instalado
+- Industrial (>500 kWp): R$ 2.500–3.500/kWp instalado
+
+Fórmula de payback simples:
+Payback (anos) = Investimento total (R$) / Economia anual (R$/ano)
+Economia anual = Geração anual (kWh) × Tarifa média (R$/kWh)
+
+Geração anual = Ppico (kWp) × ISPG (kWh/m²/dia) × 365 × PR
+
+EXEMPLO (São Paulo, comercial):
+- Sistema: 100 kWp; Investimento: R$ 450.000
+- Geração: 100 × 4,8 × 365 × 0,82 = 143.712 kWh/ano
+- Tarifa comercial: R$ 0,75/kWh → Economia = R$ 107.784/ano
+- Payback simples: 450.000 / 107.784 ≈ 4,2 anos
+- VPL em 25 anos (WACC 8%): ≈ R$ 650.000 (ROI > 100%)
+
+REFERÊNCIAS:
+- ABSOLAR: Panorama da Solar Fotovoltaica no Brasil 2024
+- ANEEL: Resolução Normativa 1.059/2023
+- Lei 14.300/2022 — Marco Legal da Microgeração Distribuída
+- CRESESB: Atlas Solarimétrico do Brasil
+- ABNT NBR 16690:2019

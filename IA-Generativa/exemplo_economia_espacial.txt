@@ -1,0 +1,35 @@
+DOCUMENTO DE EXEMPLO - ECONOMIA ESPACIAL E MONITORAMENTO AMBIENTAL
+
+Este é um documento de teste para demonstrar o assistente RAG.
+Substitua por documentos reais da NASA, INPE, ESA ou IPCC.
+
+1. SATÉLITES E MONITORAMENTO CLIMÁTICO
+Satélites de observação da Terra coletam dados sobre temperatura da superfície,
+cobertura de nuvens, níveis de gelo polar e concentração de gases na atmosfera.
+Esses dados permitem prever padrões climáticos e monitorar mudanças ambientais
+ao longo do tempo. Satélites como os da série Landsat operam há décadas,
+formando o registro contínuo mais longo de imagens da superfície terrestre.
+
+2. AGRICULTURA INTELIGENTE POR SATÉLITE
+A agricultura de precisão usa imagens de satélite para monitorar a saúde das
+plantações através do índice de vegetação (NDVI). Agricultores recebem alertas
+sobre estresse hídrico, pragas e necessidade de irrigação. Isso reduz o uso de
+água e fertilizantes, aumentando a produtividade e diminuindo o impacto ambiental.
+
+3. DESASTRES NATURAIS E RESPOSTA RÁPIDA
+Satélites detectam queimadas, enchentes e desmatamento quase em tempo real.
+No Brasil, o INPE monitora a Amazônia com sistemas de alerta de desmatamento.
+Essas informações ajudam autoridades a responder mais rápido a emergências
+ambientais e a planejar ações de mitigação.
+
+4. EXPLORAÇÃO ESPACIAL E NOVA ECONOMIA
+A nova economia espacial inclui empresas privadas que lançam satélites a custos
+muito menores que no passado. Constelações de pequenos satélites fornecem
+internet, imagens e dados em escala global. Esse mercado cresce rapidamente e
+abre oportunidades em telecomunicações, agricultura, logística e meio ambiente.
+
+5. MUDANÇAS CLIMÁTICAS
+Dados de satélite mostram o aumento do nível do mar, o derretimento de geleiras
+e o aumento da temperatura média global. Esses registros são fundamentais para
+relatórios climáticos internacionais e para orientar políticas públicas de
+adaptação e redução de emissões de carbono.

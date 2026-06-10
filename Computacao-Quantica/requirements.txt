@@ -1,0 +1,11 @@
+qiskit==1.2.4
+qiskit-aer==0.15.1
+qiskit-machine-learning==0.8.2
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
+pylatexenc==2.10
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+scipy==1.13.1

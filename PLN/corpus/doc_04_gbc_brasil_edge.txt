@@ -1,0 +1,76 @@
+FONTE: GBC Brasil / IFC World Bank Group
+CATEGORIA: norma_certificacao
+SUBCATEGORIA: energia_agua
+ANO: 2023
+VIGENCIA: vigente
+TITULO: GBC Brasil EDGE - Certificação de Edifícios Verdes para Mercados Emergentes
+
+=========================================================
+GBC BRASIL EDGE — REQUISITOS TÉCNICOS
+=========================================================
+
+1. APRESENTAÇÃO
+O EDGE (Excellence in Design for Greater Efficiencies) é uma certificação desenvolvida pelo IFC (International Finance Corporation), membro do Grupo Banco Mundial, adaptada para o Brasil pelo GBC Brasil (Green Building Council Brasil). É considerada a certificação verde mais acessível do mercado, voltada para empreendimentos residenciais e comerciais que buscam um nível inicial de sustentabilidade com menor complexidade e custo.
+
+2. CRITÉRIO DE CERTIFICAÇÃO — REGRA DOS 20%
+Para obter o EDGE Certified, o empreendimento deve demonstrar economia de pelo menos 20% em dois dos três recursos avaliados:
+
+RECURSO 1 — ENERGIA
+Meta: ≥20% de redução no consumo de energia em relação à linha de base EDGE para o tipo construtivo e localidade climática.
+
+Medidas avaliadas e percentuais típicos de economia:
+- Coberturas com alta absortância solar (telhado branco/cool roof): 5–15%
+- Paredes externas com isolamento térmico: 3–8%
+- Vidros com baixo coeficiente solar (SHGC ≤ 0,25): 5–20%
+- Proteção solar externa (brise-soleil, beiral, pergolado): 5–15%
+- Sistema de ar-condicionado de alta eficiência (SEER ≥ 15): 10–25%
+- Iluminação LED (100%): 10–20%
+- Aquecimento solar de água (para residencial): 15–40%
+- Sistema fotovoltaico (geração in situ): variável conforme dimensionamento
+
+RECURSO 2 — ÁGUA
+Meta: ≥20% de redução no consumo de água em relação à linha de base EDGE.
+
+Medidas avaliadas:
+- Vasos sanitários dual flush (3/6L): 15–25%
+- Torneiras de lavatório com arejadores (1,5 L/min): 5–10%
+- Chuveiros de baixo consumo (6 L/min): 5–15%
+- Captação e reuso de água pluvial: 10–30%
+- Reuso de águas cinzas: 15–30%
+- Irrigação com sistema automatizado e sensor de umidade: 5–10%
+
+RECURSO 3 — MATERIAIS
+Meta: ≥20% de redução no carbono incorporado (Embodied Carbon) dos materiais estruturais.
+
+Medidas avaliadas:
+- Estrutura metálica com aço reciclado (≥25% de conteúdo reciclado): 10–20%
+- Lajes nervuradas ou protendidas (menor volume de concreto): 5–15%
+- Concreto com adição de escória (slag) ou cinza volante: 5–20%
+- Fachadas de menor peso (painéis, EPS estrutural): 5–10%
+- Uso de BIM para otimização de quantitativos e redução de desperdício
+
+3. EXEMPLO DE COMBINAÇÃO TÍPICA
+Cenário para residencial em São Paulo:
+- Energia: Telhado branco (10%) + LED (15%) + SEER 17 (15%) + FV (10%) = ~42% de economia ✓
+- Água: Dual flush (20%) + torneiras 1,5 L/min (8%) + captação pluvial (15%) = ~35% ✓
+- Materiais: Concreto com escória 30% (12%) + laje nervurada (10%) = ~20% ✓
+→ Resultado: EDGE Certified (todos os 3 recursos atingidos)
+
+Para EDGE Advanced:
+- Energia: ≥40% de redução + 100% coberto por energia renovável in situ (Net Zero Ready)
+
+4. PROCESSO DE CERTIFICAÇÃO
+1. Registro do projeto na plataforma EDGE App (gratuita): www.edgebuildings.com
+2. Inserção dos dados do edifício e cálculo automático das economias
+3. Contratação de Auditor EDGE credenciado pelo GBC Brasil
+4. Auditoria de projeto (análise documental)
+5. Auditoria de obra (inspeção in loco)
+6. Emissão do Certificado pelo IFC/GBC Brasil
+
+Prazo médio: 3–6 meses após conclusão da obra.
+Custo: variável conforme porte; geralmente 60–80% inferior ao LEED para projetos similares.
+
+REFERÊNCIAS:
+- GBC Brasil: www.gbcbrasil.org.br
+- EDGE App: www.edgebuildings.com
+- IFC EDGE Technical Guide v3.0 (2021)

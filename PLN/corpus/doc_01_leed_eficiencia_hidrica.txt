@@ -1,0 +1,122 @@
+FONTE: USGBC - U.S. Green Building Council
+CATEGORIA: norma_certificacao
+SUBCATEGORIA: agua
+ANO: 2023
+VIGENCIA: vigente
+TITULO: LEED v4.1 BD+C - Eficiência Hídrica: Pré-requisitos e Créditos
+
+=========================================================
+LEED v4.1 - EFICIÊNCIA HÍDRICA: REQUISITOS TÉCNICOS COMPLETOS
+=========================================================
+
+1. VISÃO GERAL DA CATEGORIA
+A categoria Eficiência Hídrica (WE) do LEED v4.1 para Construção e Reforma de Edifícios (BD+C) contém 1 pré-requisito obrigatório e 4 créditos, totalizando até 11 pontos possíveis na certificação. O objetivo é minimizar o consumo de água potável, promover o reuso e a coleta de águas pluviais.
+
+2. PRÉ-REQUISITO WEp1: REDUÇÃO DO USO DE ÁGUA INTERIOR
+Todas as edificações candidatas ao LEED devem reduzir o consumo de água interior em no mínimo 20% em relação à linha de base (baseline) estabelecida pelo Energy Policy Act (EPAct) de 1992, atualizada pela norma ASME A112.18.1-2018.
+
+Linha de base (baseline) por tipo de fixture — uso residencial:
+- Vaso sanitário convencional: 6,0 litros/descarga → máximo LEED: 4,8 L
+- Mictório convencional: 3,8 litros/descarga → máximo LEED: 1,9 L
+- Torneira lavatório: 8,3 L/min → máximo LEED: 5,7 L/min
+- Chuveiro residencial: 9,5 L/min → máximo LEED: 7,6 L/min
+- Torneira de cozinha: 8,3 L/min → máximo LEED: 6,6 L/min
+
+Linha de base — uso transiente/comercial:
+- Vaso sanitário: 6,0 L/descarga → máximo: 4,8 L
+- Mictório: 3,8 L/descarga → máximo: 1,9 L
+- Torneira lavatório temporizada: 8 segundos, máximo 0,95 L por acionamento
+- Torneira lavatório com sensor: 1,9 L/min
+
+Fórmula de cálculo da linha de base:
+Volume diário (L) = Nº de ocupantes × Usos por fixture/dia × Volume por uso (L)
+Exemplo: 100 ocupantes, 3 usos de vaso/dia × 6,0 L = 1.800 L/dia de baseline para vasos.
+
+Tecnologias de baixo consumo elegíveis:
+- Vasos sanitários com duplo acionamento (dual flush): 3,0 L (urina) / 6,0 L (fezes) — média ponderada: 3,8 L
+- Vasos de alta eficiência (HET): máximo 4,8 L/descarga
+- Mictórios sem água (waterless urinals): 0 L/descarga
+- Torneiras com sensor de presença: 0,95–1,9 L/min
+- Chuveiros de alta eficiência: 6,1–7,6 L/min
+- Dispositivos com certificação WaterSense (EPA) atendem automaticamente os requisitos LEED
+
+3. CRÉDITO WE1: PAISAGISMO EXTERIOR EFICIENTE (1–2 pontos)
+1 ponto: Redução de 30% no consumo de irrigação exterior em relação ao volume calculado para a vegetação de referência, considerando o ano climático médio do local.
+2 pontos: Eliminação completa da irrigação permanente — apenas irrigação temporária de estabelecimento (até 1 ano após a implantação) é permitida.
+
+Estratégias elegíveis para reduzir ou eliminar a irrigação:
+- Plantas nativas ou adaptadas ao clima local (baixa demanda hídrica)
+- Aproveitamento de água pluvial coletada em cisternas
+- Reuso de água cinza tratada para irrigação
+- Sistemas de irrigação por gotejamento com sensor de umidade do solo
+- Xerojardinagem e paisagismo com cobertura de solo (mulching)
+
+Cálculo do Coeficiente de Paisagismo (KL):
+KL = Ks × Kd × Kmc
+onde: Ks = coeficiente da espécie; Kd = coeficiente de densidade; Kmc = coeficiente de microclima
+
+Volume de irrigação ajustado = Área vegetada × ETc × (1 - EfSistema) / EfDistribuição
+
+4. CRÉDITO WE2: GESTÃO DE ÁGUA PLUVIAL (1–2 pontos)
+1 ponto: Gerenciar in situ o volume de escoamento correspondente ao percentil de 85% da precipitação anual do local (frequência de precipitação).
+2 pontos: Gerenciar 100% do volume de escoamento correspondente ao percentil de 95% da precipitação anual.
+
+Técnicas de controle de escoamento pluvial:
+- Telhados verdes (extensivos ou intensivos)
+- Pavimentos e calçadas permeáveis (blocos, concreto poroso, cascalho)
+- Jardins de chuva (rain gardens) e biovaletas
+- Cisternas de retenção e detenção
+- Wetlands construídas (alagados artificiais)
+- Poços de infiltração e trincheiras drenantes
+
+Volume a gerenciar = (Percentil de precipitação - 25,4 mm) × Área impermeável do lote (m²)
+
+5. CRÉDITO WE3: USO EFICIENTE DE ÁGUA INTERIOR (1–6 pontos)
+Pontuação por percentual de redução adicional acima do pré-requisito de 20%:
+- Redução de 25%: 1 ponto
+- Redução de 30%: 2 pontos
+- Redução de 35%: 3 pontos
+- Redução de 40%: 4 pontos
+- Redução de 45%: 5 pontos
+- Redução de 50%: 6 pontos (máximo)
+
+Tecnologias de altíssima eficiência:
+- Vasos com duplo acionamento 3/4,5 L: redução de ~37% sobre baseline
+- Mictórios sem água: redução de 100% para mictórios
+- Torneiras de lavatório 0,5 L/min: redução de ~94% sobre baseline transiente
+- Sistemas de reuso de água cinza para descarga de vasos
+
+6. CRÉDITO WE4: METERING DE ÁGUA (1 ponto)
+Instalação de medidores permanentes (submetering) para monitoramento contínuo:
+- Consumo total de água potável do edifício (obrigatório)
+- Irrigação exterior — se corresponder a ≥10% do consumo total
+- Resfriamento e aquecimento (torre de resfriamento, caldeiras) — se ≥10%
+- Uso de água interior por setor (sanitários, cozinha, etc.) — se ≥10%
+- Processos industriais ou equipamentos — se ≥10%
+
+Dados de medição devem ser registrados em intervalos de 15 minutos a 1 hora, com transmissão para sistema de BEMS ou BAS (Building Automation System).
+
+7. INTEGRAÇÃO COM NET ZERO WATER
+Para atingir balanço hídrico nulo (Net Zero Water) no contexto LEED:
+- Coleta de 100% da água pluvial anual para uso não potável
+- Tratamento e reuso de 100% das águas cinzas geradas
+- Coleta e uso do condensado de sistemas de ar-condicionado
+- Reuso de água de processos (piscinas, cozinhas, etc.)
+- Meta: mínimo de 50% do consumo suprido por fontes alternativas no local
+
+Referência de balanço: Consumo total anual = Captação pluvial + Reuso cinzas + Condensado AC + Água potável
+Para Net Zero: Água potável = 0 (ou próximo de zero)
+
+8. DOCUMENTAÇÃO NECESSÁRIA PARA CERTIFICAÇÃO
+- Cut sheets (fichas técnicas) de todos os fixtures com dados de vazão certificados
+- Planilha de cálculo da linha de base e consumo projetado (modelo LEED)
+- Planta hidráulica com identificação e especificação de todos os fixtures
+- Laudos de laboratório para sistemas de reuso e tratamento de água
+- Dados de monitoramento pós-ocupação (obrigatórios para LEED O+M)
+
+REFERÊNCIAS TÉCNICAS:
+- USGBC LEED v4.1 BD+C Reference Guide (2022)
+- EPA WaterSense Program — www.epa.gov/watersense
+- ASME A112.18.1-2018: Plumbing Supply Fittings
+- ABNT NBR 15527:2019 — Aproveitamento de água de chuva de coberturas
+- ABNT NBR 16783:2019 — Uso de fontes alternativas de água não potável

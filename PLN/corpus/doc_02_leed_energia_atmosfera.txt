@@ -1,0 +1,121 @@
+FONTE: USGBC - U.S. Green Building Council
+CATEGORIA: norma_certificacao
+SUBCATEGORIA: energia
+ANO: 2023
+VIGENCIA: vigente
+TITULO: LEED v4.1 BD+C - Energia e Atmosfera: Pré-requisitos e Créditos
+
+=========================================================
+LEED v4.1 - ENERGIA E ATMOSFERA: REQUISITOS TÉCNICOS COMPLETOS
+=========================================================
+
+1. VISÃO GERAL DA CATEGORIA
+A categoria Energia e Atmosfera (EA) do LEED v4.1 BD+C é a mais pontuada do sistema, com até 33 pontos disponíveis. Contém 3 pré-requisitos obrigatórios e 7 créditos. O foco está em reduzir o consumo energético, garantir o desempenho dos sistemas e ampliar o uso de energia renovável.
+
+2. PRÉ-REQUISITO EAp1: COMISSIONAMENTO FUNDAMENTAL (obrigatório)
+Verificação e documentação de que os sistemas energéticos do edifício estão instalados, calibrados e operando conforme projetado.
+
+Sistemas cobertos pelo comissionamento fundamental:
+- Sistemas de aquecimento, ventilação e ar-condicionado (HVAC)
+- Sistema de iluminação e controles
+- Aquecimento de água
+- Sistemas de energia renovável (FV, solar térmico)
+- Envelope do edifício (isolamento, janelas, infiltração)
+
+Documentação obrigatória:
+- Plano de Comissionamento (Cx Plan)
+- Verificação de instalação (Installation Checks)
+- Testes funcionais dos equipamentos
+- Relatório final de comissionamento (Cx Report)
+
+3. PRÉ-REQUISITO EAp2: DESEMPENHO ENERGÉTICO MÍNIMO (obrigatório)
+O edifício deve demonstrar consumo energético pelo menos 5% inferior ao edifício de referência do ASHRAE 90.1-2016 (para BD+C Novas Construções) ou 3% inferior (para Grandes Reformas — Major Renovation).
+
+Métodos de demonstração:
+a) Simulação energética completa (Energy Modeling) — método prescrito para maiores pontuações
+b) Caminho prescritivo (Prescriptive Path) — conformidade item a item com o ASHRAE 90.1 Appendix G
+
+Parâmetros do edifício de referência (baseline):
+- Iluminação: conforme Tabela 9.6.1 do ASHRAE 90.1 (LPD — Lighting Power Density)
+- Envelope: transmitância U e coeficiente solar SHGC conforme Tabela 5.5 do ASHRAE
+- HVAC: eficiência mínima por tipo de equipamento (COP, EER, SEER, kW/TR)
+
+4. PRÉ-REQUISITO EAp3: GESTÃO DE REFRIGERANTES FUNDAMENTAL (obrigatório)
+Proibição de uso de refrigerantes com CFC (clorofluorcarbonos) em sistemas de HVAC instalados.
+Para sistemas com HCFC ou HFC: cálculo de emissões não deve ultrapassar 100 TECO2eq/ano.
+
+Fórmula de impacto:
+LCGWP + LCODP × 105 ≤ 100 (valor máximo por pré-requisito)
+onde: LCGWP = emissão de GWP ao longo do ciclo de vida; LCODP = emissão de ODP
+
+5. CRÉDITO EA1: COMISSIONAMENTO AVANÇADO (1–6 pontos)
+Opção 1 (3 pontos): Comissionamento avançado de envelope do edifício, com testes de estanqueidade (Blower Door Test — ASTM E779 ou ASTM E1827).
+Opção 2 (2 pontos): Comissionamento de sistemas de iluminação, controles e fachadas.
+Opção 3 (1 ponto): Monitoramento contínuo de desempenho (sistema automatizado de alarme e diagnóstico).
+
+6. CRÉDITO EA2: OTIMIZAÇÃO DO DESEMPENHO ENERGÉTICO (1–18 pontos)
+Pontos por percentual de economia de energia em relação ao baseline ASHRAE 90.1-2016:
+- Novas Construções: de 6% (1 pt) a 50% ou mais (18 pts)
+- Grandes Reformas: de 4% (1 pt) a 48% (18 pts)
+
+Tabela de pontuação (Novas Construções):
+6%   → 1 ponto
+8%   → 2 pontos
+10%  → 3 pontos
+12%  → 4 pontos
+14%  → 5 pontos
+16%  → 6 pontos
+18%  → 7 pontos
+20%  → 8 pontos
+22%  → 9 pontos
+24%  → 10 pontos
+26%  → 11 pontos
+28%  → 12 pontos
+30%  → 13 pontos
+34%  → 14 pontos
+38%  → 15 pontos
+42%  → 16 pontos
+46%  → 17 pontos
+≥50% → 18 pontos
+
+Estratégias de alto impacto para maximizar pontos EA2:
+- Fachadas com alto desempenho térmico (U < 1,5 W/m²K) e controle solar (SHGC < 0,25)
+- Sistemas VRF (Variable Refrigerant Flow) ou chillers de alta eficiência (COP > 6)
+- Iluminação LED com controles de presença e daylight harvesting (LPD < 5 W/m²)
+- Recuperação de calor (DOAS com ERV — Energy Recovery Ventilator)
+- BMS/BEMS integrado para otimização em tempo real
+- Geração fotovoltaica integrada ao envelope (BIPV)
+- Aquecimento solar de água (coletores planos ou tubos a vácuo)
+
+7. CRÉDITO EA3: COMISSIONAMENTO DE ENERGIA AVANÇADO E MONITORAMENTO (1–2 pontos)
+1 ponto: Verificação de desempenho pós-ocupação por 12 meses; relatório comparando consumo real vs. projetado.
+2 pontos: Acordo de Comissionamento Contínuo — sistema automatizado de detecção de falhas e diagnóstico.
+
+8. CRÉDITO EA4: GESTÃO AVANÇADA DE REFRIGERANTES (1 ponto)
+Seleção de refrigerantes de baixo GWP (Global Warming Potential):
+- Refrigerantes naturais preferidos: CO₂ (R-744, GWP=1), Amônia (R-717, GWP=0), Propano (R-290, GWP=3)
+- Refrigerantes HFO aceitos: R-1234yf (GWP=4), R-1234ze (GWP=7)
+- Proibidos: R-410A (GWP=2088), R-22 (CFC)
+
+9. CRÉDITO EA5: MEDIÇÃO E VERIFICAÇÃO (1–2 pontos)
+1 ponto: Plano de M&V conforme IPMVP (International Performance Measurement and Verification Protocol) para sistemas que representem ≥20% do consumo total.
+2 pontos: M&V para todos os sistemas energéticos significativos com relatório anual.
+
+10. CRÉDITO EA6: ENERGIA VERDE E OFFSETS DE CARBONO (1–2 pontos)
+1 ponto: 50% do consumo elétrico coberto por energia renovável certificada (RECs — Renewable Energy Certificates) por 5 anos, ou contrato de compra de energia renovável (PPA).
+2 pontos: 100% do consumo elétrico coberto por RECs ou PPA + offsets de carbono para emissões de processo.
+
+11. NET ZERO ENERGIA — INTEGRAÇÃO COM LEED
+Para atingir Net Zero Energy no contexto LEED (nomenclatura: ZNE — Zero Net Energy):
+- Combinar máxima eficiência (EA2 ≥50% = 18 pontos) com geração in situ
+- Dimensionar sistema fotovoltaico para cobrir 100% do consumo anual
+- Balanço anual: Geração FV (kWh/ano) ≥ Consumo total (kWh/ano)
+- Estratégia de referência: EUI (Energy Use Intensity) alvo ≤ 30 kWh/m²/ano
+
+REFERÊNCIAS TÉCNICAS:
+- USGBC LEED v4.1 BD+C Reference Guide (2022)
+- ASHRAE 90.1-2016: Energy Standard for Buildings Except Low-Rise Residential
+- ASHRAE 55-2020: Thermal Environmental Conditions for Human Occupancy
+- IPMVP: EVO 10000-1:2012 — International Performance M&V Protocol
+- ABNT NBR 16401: Instalações de ar-condicionado — sistemas centrais
+- PROCEL: Regulamento Técnico da Qualidade (RTQ-C e RTQ-R)

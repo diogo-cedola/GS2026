@@ -1,0 +1,130 @@
+FONTE: INMETRO / PROCEL / ELETROBRAS
+CATEGORIA: relatorio_tecnico
+SUBCATEGORIA: energia
+ANO: 2023
+VIGENCIA: vigente
+TITULO: PROCEL Edifica - Regulamento Técnico da Qualidade para Edificações e Etiqueta PBE
+
+=========================================================
+PROCEL EDIFICA — RTQ-C E RTQ-R: REQUISITOS TÉCNICOS
+=========================================================
+
+1. APRESENTAÇÃO DO PROGRAMA
+O PROCEL Edifica (Programa Nacional de Conservação de Energia Elétrica em Edificações) é gerido pelo INMETRO e ELETROBRAS/PROCEL. Institui o Regulamento Técnico da Qualidade (RTQ) e a Etiqueta Nacional de Conservação de Energia (ENCE) para edificações, no âmbito do Programa Brasileiro de Etiquetagem (PBE).
+
+Dois regulamentos principais:
+- RTQ-R: Regulamento Técnico da Qualidade para o Nível de Eficiência Energética de Edificações Residenciais
+- RTQ-C: Regulamento Técnico da Qualidade para o Nível de Eficiência Energética de Edificações Comerciais, de Serviços e Públicas
+
+Escala de eficiência (Etiqueta PBE):
+A (mais eficiente) → B → C → D → E (menos eficiente)
+Obrigatoriedade: edificações públicas federais novas ou reformadas ≥ etiqueta A desde 2014.
+
+2. RTQ-C: EDIFICAÇÕES COMERCIAIS, SERVIÇOS E PÚBLICAS
+Aplicação: escritórios, hotéis, shoppings, hospitais, escolas, aeroportos — todas as edificações não residenciais.
+
+2.1 PRÉ-REQUISITOS GERAIS
+- Potência de iluminação: LPD ≤ limite da Tabela RTQ-C (por tipologia e zona bioclimática)
+- Sistema de condicionamento de ar: EER ou COP ≥ mínimo regulatório
+- Envelope: transmitância U ≤ limite máximo por ZB
+
+2.2 REQUISITOS DO SISTEMA DE ILUMINAÇÃO (SI)
+Índice de Eficiência da Iluminação (IEI ou EqNum):
+EqNum = LPDprojeto / LPDreferência
+- EqNum ≤ 0,50 → Nível A
+- 0,50 < EqNum ≤ 0,60 → Nível B
+- 0,60 < EqNum ≤ 0,70 → Nível C (mínimo)
+- 0,70 < EqNum ≤ 0,80 → Nível D
+- EqNum > 0,80 → Nível E
+
+LPD de referência por tipologia (W/m²):
+- Escritório: 12,0 W/m²
+- Hotel (quartos): 9,0 W/m²
+- Shopping: 15,0 W/m²
+- Hospital (enfermaria): 9,0 W/m²
+- Escola: 10,0 W/m²
+
+Pontuações de bônus em iluminação:
+- Divisão do espaço em zonas com controles independentes: +1 ponto
+- Sensor de presença em áreas de uso esporádico: +2 pontos
+- Sensor de luz natural (daylight sensor) com dimming: +2 pontos
+- Controle por temporização: +1 ponto
+
+2.3 REQUISITOS DO SISTEMA DE CONDICIONAMENTO DE AR (SCA)
+Eficiência mínima por tipo de equipamento:
+- Janelas e splits (monofásico): EER ≥ 3,02 (≈ SEER 10,3 BTU/Wh)
+- Splits e VRF (trifásico): EER ≥ 3,28
+- Chillers centrífugos: kW/TR ≤ 0,60 (COP ≥ 5,86)
+- Chillers parafuso/scroll: kW/TR ≤ 0,70 (COP ≥ 5,02)
+
+Métodos de avaliação do SCA:
+a) Método prescritivo: verificação de EER mínimo por tipo de equipamento
+b) Método de simulação: EnergyPlus ou ThermalSim com comparação vs. edifício de referência
+
+2.4 REQUISITOS DO ENVELOPE (ENV)
+Fator Solar Máximo de Vidros (FS):
+A janela (vão envidraçado) deve ter:
+FS_janela = SHGC × (1 - FF) onde FF = fator de forma da caixilharia
+
+Limite de Transmitância Térmica de Paredes (U_PAR) em W/m²K:
+ZB 1 e 2: U ≤ 2,5 (Nível A: U ≤ 1,0)
+ZB 3 e 4: U ≤ 3,7 (Nível A: U ≤ 1,5)
+ZB 5, 6, 7, 8: U ≤ 3,7 (Nível A: U ≤ 1,5)
+
+Absortância máxima de coberturas (α_COB):
+ZB 5, 6, 7, 8: α ≤ 0,40 para atingir nível mínimo
+ZB 1 a 4: α ≤ 0,65
+
+2.5 PONTUAÇÃO FINAL E NÍVEL DO EDIFÍCIO
+IC_edificio = (IC_ENV × A_env + IC_SI × A_si + IC_SCA × A_sca) / A_total
+
+Pesos típicos (podem variar conforme tipologia):
+- Envelope: 30%
+- Iluminação: 30%
+- Condicionamento: 40%
+
+Nível final:
+IC ≤ IC_A → Etiqueta A
+IC_A < IC ≤ IC_B → Etiqueta B
+IC_B < IC ≤ IC_C → Etiqueta C (mínimo aceitável)
+IC_C < IC ≤ IC_D → Etiqueta D
+IC > IC_D → Etiqueta E
+
+Bonificações para etiqueta superior:
+- Aproveitamento de água da chuva: +0,1 no IC final
+- Geração de energia in situ (FV): +0,1 a +0,3 conforme % gerado
+- Vegetação (telhado verde ou fachada verde): +0,05
+
+3. RTQ-R: EDIFICAÇÕES RESIDENCIAIS
+Aplicação: casas e apartamentos (unidades habitacionais autônomas e áreas de uso comum).
+
+3.1 AVALIAÇÃO DA UNIDADE HABITACIONAL (UH)
+Componentes avaliados:
+a) Envoltória: desempenho térmico em dias típicos de verão e inverno por ZB
+b) Aquecimento de Água: eficiência do sistema (chuveiro elétrico, solar, bomba de calor, gás)
+c) Bonificações: ventilação natural, iluminação natural, geração FV
+
+Método simplificado — transmitâncias e absortâncias:
+- Paredes externas: U e absortância α conforme Tabela RTQ-R por ZB
+- Coberturas: U e α conforme Tabela RTQ-R
+
+Aquecimento de Água:
+Fator de Utilização Solar (FUS) — para sistemas solares térmicos:
+FUS = Qsolar / Qtotal
+- FUS ≥ 0,70 → contribuição boa
+- Equipamentos: coletores planos (η ≈ 60–75%); tubos a vácuo (η ≈ 70–85%)
+
+Sistema de chuveiro elétrico (mais comum no Brasil):
+- Consumo: ~25% do consumo elétrico residencial
+- Potência típica: 5.500 W (chuveiro comum) ou 7.500 W (chuveiro quente)
+- Substituição por solar térmico + resistência auxiliar reduz consumo em 50–80%
+
+3.2 AVALIAÇÃO DA ÁREA DE USO COMUM (AUC)
+Sistemas avaliados: iluminação de áreas comuns, sistema de bombeamento, elevadores.
+LPD máximo para áreas comuns residenciais: 7 W/m²
+
+REFERÊNCIAS:
+- INMETRO/PROCEL: RTQ-C (Portaria INMETRO 372/2010, revisado 2021)
+- INMETRO/PROCEL: RTQ-R (Portaria INMETRO 18/2012, revisado 2022)
+- ABNT NBR 15220:2005 — Desempenho térmico de edificações
+- ELETROBRAS/PROCEL: Manual para Etiquetagem de Edificações

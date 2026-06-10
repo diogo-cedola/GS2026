@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "author": "AEGIS",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -150, "left": 200, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 50, "left": 250,
+      "attrs": { "label": "Pressao" } },
+    { "type": "wokwi-potentiometer", "id": "pot2", "top": 180, "left": 250,
+      "attrs": { "label": "CO2" } },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr", "top": 320, "left": 250,
+      "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo", "top": -160, "left": -260, "attrs": {} },
+    { "type": "wokwi-rgb-led", "id": "rgb", "top": 50, "left": -250, "attrs": {} },
+    { "type": "wokwi-buzzer", "id": "buz", "top": 200, "left": -250,
+      "attrs": { "volume": "0.1" } }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+
+    [ "esp:D23", "dht:SDA", "green", [] ],
+    [ "esp:3V3", "dht:VCC", "red", [] ],
+    [ "esp:GND.1", "dht:GND", "black", [] ],
+
+    [ "esp:3V3", "pot1:VCC", "red", [] ],
+    [ "esp:GND.2", "pot1:GND", "black", [] ],
+    [ "pot1:SIG", "esp:D34", "yellow", [] ],
+
+    [ "esp:3V3", "pot2:VCC", "red", [] ],
+    [ "esp:GND.2", "pot2:GND", "black", [] ],
+    [ "pot2:SIG", "esp:D35", "yellow", [] ],
+
+    [ "esp:3V3", "ldr:VCC", "red", [] ],
+    [ "esp:GND.2", "ldr:GND", "black", [] ],
+    [ "ldr:AO", "esp:D32", "yellow", [] ],
+
+    [ "esp:VIN", "servo:V+", "red", [] ],
+    [ "esp:GND.3", "servo:GND", "black", [] ],
+    [ "esp:D18", "servo:PWM", "orange", [] ],
+
+    [ "esp:GND.3", "rgb:COM", "black", [] ],
+    [ "esp:D27", "rgb:R", "red", [] ],
+    [ "esp:D25", "rgb:G", "green", [] ],
+    [ "esp:D26", "rgb:B", "blue", [] ],
+
+    [ "esp:D13", "buz:1", "purple", [] ],
+    [ "esp:GND.1", "buz:2", "black", [] ]
+  ],
+  "dependencies": {}
+}

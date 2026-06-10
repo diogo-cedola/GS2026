@@ -1,0 +1,136 @@
+FONTE: ABNT / ANA - Agência Nacional de Águas
+CATEGORIA: manual_tecnologia
+SUBCATEGORIA: agua
+ANO: 2023
+VIGENCIA: vigente
+TITULO: Reaproveitamento de Águas Cinzas em Edificações - Sistemas, Tratamento e Regulamentação
+
+=========================================================
+REAPROVEITAMENTO DE ÁGUAS CINZAS — GUIA TÉCNICO COMPLETO
+=========================================================
+
+1. DEFINIÇÃO E CLASSIFICAÇÃO
+Águas cinzas são efluentes domésticos gerados em lavatórios, chuveiros, banheiras, pias de cozinha e máquinas de lavar roupa — excluídas as águas negras (vasos sanitários e mictórios), que contêm patógenos fecais e exigem tratamento mais complexo.
+
+Classificação por origem e nível de contaminação:
+- Águas cinzas claras (light grey water): lavatórios e chuveiros — baixa carga orgânica (DBO 50–100 mg/L), baixo teor de patógenos; mais fáceis de tratar
+- Águas cinzas escuras (dark grey water): pia de cozinha e máquina de lavar — alta carga de gordura, detergentes e DBO (DBO 100–300 mg/L); requerem pré-tratamento adicional
+- Recomendação técnica: sistemas residenciais utilizam preferencialmente águas cinzas claras
+
+Volume gerado por habitante/dia (estimativas nacionais):
+- Lavatório: 20–30 L/pessoa/dia
+- Chuveiro: 40–60 L/pessoa/dia
+- Banheira: 80–120 L/uso
+- Máquina de lavar: 80–120 L/ciclo
+- Total cinzas claras: ~60–90 L/pessoa/dia (50–60% do consumo total)
+
+2. QUALIDADE EXIGIDA PARA REUSO (NBR 16783:2019 e NBR 13969)
+A NBR 16783:2019 — Uso de fontes alternativas de água não potável em edificações — estabelece os parâmetros de qualidade para diferentes usos:
+
+CLASSE DE REUSO A — Usos com potencial de contato humano (lavagem de pisos, rega de jardins acessíveis):
+- Coliformes termotolerantes: ausência em 100 mL
+- Turbidez: ≤ 5 NTU
+- pH: 6,0 – 9,0
+- Cloro residual livre: 0,5 – 1,5 mg/L
+- DBO₅: ≤ 10 mg/L
+
+CLASSE DE REUSO B — Descarga de vasos sanitários e mictórios (uso mais comum):
+- Coliformes termotolerantes: ≤ 200 NMP/100 mL
+- Turbidez: ≤ 5 NTU
+- pH: 6,0 – 9,0
+- Cloro residual livre: 0,5 – 1,5 mg/L
+- DBO₅: ≤ 30 mg/L
+
+CLASSE DE REUSO C — Irrigação de jardins sem contato humano e lavagem de pisos não acessíveis:
+- Coliformes totais: ≤ 1.000 NMP/100 mL
+- Turbidez: ≤ 40 NTU
+- pH: 6,0 – 9,5
+- Sem exigência de cloro residual
+
+CLASSE DE REUSO D — Resfriamento evaporativo, sistemas de combate a incêndio (uso restrito):
+- Coliformes termotolerantes: ausência em 100 mL
+- STD (sólidos totais dissolvidos): ≤ 500 mg/L
+
+3. SISTEMAS DE TRATAMENTO DE ÁGUAS CINZAS
+Um sistema de reuso de águas cinzas é composto por: coleta → pré-tratamento → tratamento primário → tratamento secundário → desinfecção → reservatório de reuso → distribuição dupla.
+
+3.1 TRATAMENTO FÍSICO-QUÍMICO (sistemas compactos — até 5 m³/dia)
+Etapa 1 — Gradeamento e peneiramento (remoção de sólidos grosseiros):
+  - Peneira de 1–3 mm; remove fios de cabelo, sabão sólido
+Etapa 2 — Flotação por ar dissolvido (DAF) ou decantação:
+  - Remoção de gorduras e sólidos em suspensão
+  - Eficiência: 60–80% de remoção de DBO e SST
+Etapa 3 — Filtração em múltiplas camadas:
+  - Sequência: areia grossa → areia fina → carvão ativado granular (GAC)
+  - GAC: adsorção de surfactantes, pesticidas, turbidez residual
+Etapa 4 — Desinfecção com cloro ou UV:
+  - Cloro: hipoclorito de sódio (NaOCl); dosagem 1–3 mg/L de cloro livre
+  - UV: lâmpada germicida 254 nm; dose mínima 30 mJ/cm²
+  - Ozônio: alternativa para eliminação de odor e cor
+
+3.2 TRATAMENTO BIOLÓGICO (sistemas maiores — >5 m³/dia)
+Lodo ativado compacto (biorreator de membrana — MBR):
+  - Aeração + biomassa + membrana de ultrafiltração (0,02–0,2 μm)
+  - Efluente: DBO ≤ 5 mg/L; turbidez ≤ 1 NTU; coliformes ≈ 0
+  - Ideal para atingir CLASSE A com menor área necessária
+  - Custo: 40–80% mais caro que sistemas físico-químicos; menor área física
+
+Filtro anaeróbio + filtro biológico percolador:
+  - Filtro anaeróbio: remoção de DBO (70–80%)
+  - Filtro biológico: nitrificação e polimento
+  - Adequado para edificações sem espaço para tanques aerados
+
+4. DIMENSIONAMENTO DO SISTEMA
+Passo 1 — Oferta de águas cinzas (volume gerado):
+  V_gerado (L/dia) = N_habitantes × L_cinzas/pessoa/dia
+  Exemplo: edifício de 50 apartamentos × 4 moradores × 80 L = 16.000 L/dia
+
+Passo 2 — Demanda de uso não potável (descarga de vasos):
+  V_demanda (L/dia) = N_pessoas × N_descargas/dia × Volume_descarga (L)
+  Exemplo: 200 pessoas × 5 descargas/dia × 4 L = 4.000 L/dia
+
+Passo 3 — Volume do reservatório de reuso:
+  V_reservatório ≥ V_demanda × Tempo_autonomia (dias)
+  Recomendado: autonomia de 1–2 dias
+  Exemplo: 4.000 × 2 = 8.000 L (8 m³)
+
+Nota: a oferta (16.000 L/dia) supera a demanda (4.000 L/dia) → excedente pode ser usado para irrigação ou descarregado na rede municipal após tratamento.
+
+5. INFRAESTRUTURA HIDRÁULICA — DUPLA TUBULAÇÃO
+Obrigatório: tubulações de água cinza tratada SEPARADAS das redes de água potável.
+Identificação visual (NBR 7229 e resolução CONAMA 430):
+- Tubulação de água potável: verde (padrão nacional)
+- Tubulação de água não potável/cinza: roxo/lilás (NBR 16783:2019)
+- Proibição absoluta de interconexão entre as redes
+
+Pontos de consumo de água cinza tratada:
+- Vasos sanitários e mictórios (caixa acoplada ou caixa de descarga)
+- Irrigação de jardins e pátios
+- Lavagem de pisos e veículos
+- Torres de resfriamento (com tratamento terciário)
+- Combate a incêndios (se qualidade o permitir)
+
+6. ANÁLISE ECONÔMICA SIMPLIFICADA
+Investimento típico (residencial multifamiliar, 50 UH):
+- Sistema físico-químico compacto: R$ 80.000–150.000 (instalado)
+- Sistema MBR: R$ 150.000–300.000 (instalado)
+- Manutenção anual: R$ 8.000–15.000 (energia, insumos, mão de obra)
+
+Economia típica:
+- Redução de consumo potável: 25–40% (dependente do uso para vasos)
+- Tarifa de água em São Paulo (SABESP, faixa comercial): ~R$ 25/m³ (água + esgoto)
+- Edifício 50 UH × 150 L/pessoa/dia × 4 pessoas = 30 m³/dia → R$ 750/dia
+- Economia de 30%: R$ 225/dia → R$ 82.125/ano
+- Payback: R$ 120.000 / R$ 82.125 ≈ 1,5 anos (cenário favorável)
+
+7. LEGISLAÇÃO E NORMAS APLICÁVEIS
+- ABNT NBR 16783:2019 — Uso de fontes alternativas de água não potável em edificações
+- ABNT NBR 13969:1997 — Tanques sépticos: unidades de tratamento complementar
+- CONAMA 430/2011 — Condições de lançamento de efluentes
+- Lei 9.433/1997 — Política Nacional de Recursos Hídricos
+- Legislação municipal: verificar exigências específicas por cidade (São Paulo: Lei 16.402/2016 incentiva o reuso)
+
+REFERÊNCIAS:
+- ANA: Guia Prático de Reuso de Água (2017)
+- IWA: Specialist Group on Water Reuse — Best Practice Guidelines
+- EPA: Water Recycling and Reuse: The Environmental Benefits (2021)

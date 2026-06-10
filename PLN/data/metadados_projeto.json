@@ -1,0 +1,109 @@
+{
+  "projeto": "Assistente para Edificios Eficientes quanto a Agua e Energia",
+  "modelo_base": "unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
+  "estrategia_ajuste": "QLoRA (r=16, alpha=32)",
+  "embedding": "intfloat/multilingual-e5-large",
+  "banco_vetorial": "ChromaDB",
+  "interface": "Gradio",
+  "metricas": [
+    "ROUGE-L",
+    "BERTScore"
+  ],
+  "corpus": [
+    {
+      "arquivo": "doc_01_leed_eficiencia_hidrica.txt",
+      "fonte": "USGBC",
+      "categoria": "norma_certificacao",
+      "subcategoria": "agua",
+      "ano": 2023
+    },
+    {
+      "arquivo": "doc_02_leed_energia_atmosfera.txt",
+      "fonte": "USGBC",
+      "categoria": "norma_certificacao",
+      "subcategoria": "energia",
+      "ano": 2023
+    },
+    {
+      "arquivo": "doc_03_aqua_hqe_referencial.txt",
+      "fonte": "Fundacao Vanzolini/Cerway",
+      "categoria": "norma_certificacao",
+      "subcategoria": "energia_agua",
+      "ano": 2022
+    },
+    {
+      "arquivo": "doc_04_gbc_brasil_edge.txt",
+      "fonte": "GBC Brasil/IFC",
+      "categoria": "norma_certificacao",
+      "subcategoria": "energia_agua",
+      "ano": 2023
+    },
+    {
+      "arquivo": "doc_05_nbr15575_desempenho.txt",
+      "fonte": "ABNT",
+      "categoria": "norma_certificacao",
+      "subcategoria": "energia",
+      "ano": 2021
+    },
+    {
+      "arquivo": "doc_06_sistemas_fotovoltaicos.txt",
+      "fonte": "ABSOLAR/ANEEL",
+      "categoria": "relatorio_tecnico",
+      "subcategoria": "energia",
+      "ano": 2024
+    },
+    {
+      "arquivo": "doc_07_aguas_cinzas_reuso.txt",
+      "fonte": "ABNT/ANA",
+      "categoria": "manual_tecnologia",
+      "subcategoria": "agua",
+      "ano": 2023
+    },
+    {
+      "arquivo": "doc_08_bems_automacao.txt",
+      "fonte": "ASHRAE/ISO",
+      "categoria": "manual_tecnologia",
+      "subcategoria": "energia",
+      "ano": 2023
+    },
+    {
+      "arquivo": "doc_09_procel_edifica.txt",
+      "fonte": "INMETRO/PROCEL",
+      "categoria": "relatorio_tecnico",
+      "subcategoria": "energia",
+      "ano": 2023
+    },
+    {
+      "arquivo": "doc_10_net_zero_iea.txt",
+      "fonte": "IEA/GBPN",
+      "categoria": "relatorio_tecnico",
+      "subcategoria": "energia_agua",
+      "ano": 2023
+    }
+  ],
+  "hiperparametros": {
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0,
+    "learning_rate": 0.0002,
+    "epochs": 3,
+    "batch_size": 2,
+    "gradient_accumulation": 8,
+    "batch_efetivo": 16,
+    "max_seq_length": 1024,
+    "lr_scheduler": "cosine",
+    "optim": "adamw_8bit",
+    "warmup_steps": 10,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "qa_pairs_total": 163,
+  "perguntas_avaliacao": 10
+}

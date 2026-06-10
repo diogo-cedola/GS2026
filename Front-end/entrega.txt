@@ -1,0 +1,11 @@
+Global Solution 2026.1 — Inteligência Artificial
+Curso: Front End & Mobile Development — FIAP
+
+Integrantes:
+- Diogo Cedola        RM559797
+- Felipe Sayeg        RM560366
+- Caio Santiago de Oliveira  RM559788
+
+Repositório GitHub: https://github.com/felipesayegg/GS-FRONTENDFIAP
+
+Aplicação Vercel: https://gs-frontendfiap.vercel.app
